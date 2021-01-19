@@ -1,7 +1,9 @@
 
-#mostrar en pantalla
-#varios parrafos de Lorem ipsum, donde el número de párrafos 
-#se especifica al cargar el script.
+=begin
+mostrar en pantalla
+varios parrafos de Lorem ipsum, donde el número de párrafos 
+se especifica al cargar el script.
+=end
 
 
 def parrafo(lorem_ipsum)

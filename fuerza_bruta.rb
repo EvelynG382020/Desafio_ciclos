@@ -1,7 +1,10 @@
 
-#cuantos intentos requiere hackear un password por fuerza bruta.
-#Luego el sistema intentará con todas las combinaciones de letras:
-#Primero probará con a, luego b, luego c ... luego con z, luego ab, ac, .. az, aba ... azz ... zzz, aaaa
+=begin
+cuantos intentos requiere hackear un password por fuerza bruta.
+Luego el sistema intentará con todas las combinaciones de letras:
+Primero probará con a, luego b, luego c ... 
+luego con z, luego ab, ac, .. az, aba ... azz ... zzz, aaaa
+=end
 
 #ruby fuerza_bruta.rb pass 282404 intentos
 #ruby fuerza_bruta.rb passwo 190906392 intentos
