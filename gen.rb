@@ -10,12 +10,14 @@ con todas las letras generadas concatendas.
 
 
 def gen(n) 
-    letra = "a"
-    n.times do |i|
-        print letra
+    letra = "a"#comienza con letra a
+    letra_acumulada = ''
+    n.times do
+        letra_acumulada += letra
         letra = letra.next
     end
-    puts " "
+    letra_acumulada
 end
-    n = ARGV[0].to_i
-    gen(n)
+    arg = ARGV[0].to_i
+    puts gen(arg)
+    
